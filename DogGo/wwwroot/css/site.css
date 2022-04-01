@@ -63,12 +63,7 @@ body {
   margin-bottom: 60px;
 }
 
-.table {
-    width: 100%;
-    margin-bottom: 1rem;
-    color: #212529;
-    display:flex;
-}
+
 .footer {
   position: absolute;
   bottom: 0;
