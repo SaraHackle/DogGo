@@ -43,7 +43,7 @@ namespace DogGo.Controllers
         }
 
 
-        // GET: Walkers/Details/5
+        // GET: Owners/Details/5
         public ActionResult Details(int id)
         {
             Owner owner = _ownerRepo.GetOwnerById(id);
@@ -60,7 +60,7 @@ namespace DogGo.Controllers
             return View(vm);
         }
 
-        // GET: OwnersController/Create
+        
         // GET: Owners/Create
         public ActionResult Create()
         {
